@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manas Bhardwaj - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ebe6e6;
+        }
+        header {
+            background-color: #ac7d7d;
+            color: #070000;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            overflow: hidden;
+        }
+        h1, h2 {
+            color: #361616;
+        }
+        nav {
+            margin: 1rem 0;
+            text-align: center;
+        }
+        nav a {
+            color: #271313;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        section {
+            padding: 2rem 0;
+            text-align: center;
+        }
+        .projects {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .project {
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            margin: 10px;
+            padding: 1rem;
+            width: 300px;
+        }
+        .project img {
+            max-width: 100%;
+            border-radius: 4px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Manas Bhardwaj</h1>
+            <nav>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hello! I am Manas Bhardwaj, a student with a passion for technology and design. I am currently pursuing my studies in WEB APPLICATION and am excited to showcase some of the projects I've been working on. My goal is to create interactive projects and further continue in this field.</p>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <img src="gg.png" alt="Project 1">
+                    <h3>Project 1</h3>
+                    <p>Check out this early demo of my 2D shooting game made with HTML, featuring simple mechanics and basic visuals for a sneak peek at the action!</p>
+                </div>
+                <div class="project">
+                    <img src="shg.png" alt="Project 2">
+                    <h3>Project 2</h3>
+                    <p>Test your luck and logic with my 'Guess the Number' game, built with HTML, where you have to guess the correct number in as few attempts as possible!.</p>
+                </div>
+                <!-- Add more projects here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you would like to get in touch, feel free to reach out via email at <a href="mailto:manas@example.com">bhardwajmanas433@gmail.com</a>.</p>
+        </div>
+        <form  name="contact" netlify>
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Manas Bhardwaj. All rights reserved.</p>
+    </footer>
+</body>
+</html>
